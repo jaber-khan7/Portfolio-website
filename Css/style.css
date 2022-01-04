@@ -59,6 +59,11 @@ div#top_header_links {
 div#top_header_links ul li a {
     padding: 0 10px;
     color: white;
+    transition: 100ms;
+}
+
+#top_header_links ul li a:hover{
+    color: blue;
 }
 
 div#top_add_listing_button a {
@@ -67,6 +72,11 @@ div#top_add_listing_button a {
     padding: 10px 20px;
     background: #00c4ff;
     font-weight: 700;
+    transition: 200ms;
+}
+div#top_add_listing_button a:hover{
+    background: #dddddd;
+    color: #1c1c1c;
 }
 
 div#top_add_listing_button {
@@ -105,15 +115,41 @@ div#nav_bar {
     position: relative;
 }
 
-div#nav_bar_links ul li a {color: rgb(64 64 64);padding: 12px;margin: 0 5px;border: none;border-radius: 5px;display: grid;box-shadow: 2px 5px 15px #b3b3b3;margin: 0 10px;}
+div#nav_bar_links ul li a {
+    color: rgb(64 64 64);
+    padding: 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    display: grid;
+    box-shadow: 2px 5px 15px #b3b3b3;
+    margin: 0 10px;
+    transition: 300ms;
+}
+div#nav_bar_links ul li a:hover{
+    transform: scale(1.1);
+    color: deepskyblue;
+}
 
 div#nav_menu_links ul li a {
     color: rgb(50, 50, 50);
     font-weight: 500;
     padding: 3px 0;
+    transition: 100ms;
+}
+div#nav_menu_links ul li a:hover{
+    color: deepskyblue;
 }
 
-div#nav_bar::before {content: '';width: 100%;height: 1px;position: absolute;background: rgb(50, 50, 50);bottom: 0;left: 0;}
+div#nav_bar::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: rgb(50, 50, 50);
+    bottom: 0;
+    left: 0;
+}
 
 div#logo {
     flex-basis: 25%;
@@ -122,4 +158,211 @@ div#logo {
 
 div#nav_bar_links {
     flex-basis: 15%;
+}
+div .fifty_percent {
+    flex-basis: 50%;
+}
+
+section{
+    padding: 100px 0;
+}
+.background{
+    background: #f2f6f7;
+}
+#presentation{
+    padding-bottom: 150px;
+}
+.container {
+    position: relative;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.change{
+    padding-bottom: 110px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div#presentation_image img {
+    width: 75%;
+}
+
+div#presentation_image {
+    text-align: center;
+    padding: 15px;
+}
+
+div#presentation_info h3 i {
+    color: rgb(50, 50, 50);
+    font-size: 16px;
+}
+
+div#presentation_info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+div#presentation_info {
+    padding: 25px;
+}
+
+div#presentation_info h1 {
+    font-family: 'Poppins', monospace;
+    letter-spacing: 1px;
+    color: #1c1c1c;
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+div#presentation_info p {
+    width: 85%;
+    margin-bottom: 35px;
+}
+.button a {
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    padding: 13px 35px;
+    background: #3903a3;
+    display: inline-block;
+    border: 1px solid blue;
+    transition: 300ms;
+    font-weight: 600;
+}
+.button a:hover{
+    background: #fff;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+}
+div#presentation_selection {
+    width: 80%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    margin: auto;
+    border: 1px solid #dddddd;
+    background: #fff;
+    bottom: -75px;
+    left: 10%;
+}
+
+.presentation_selection_div {
+    flex-basis: 18%;
+}
+
+.presentation_selection_div select {
+    width: 100%;
+    padding: 13px 10px;
+    color: #1c1c1c;
+    font-family: 'Fira Code', monospace;
+    font-size: 15px;
+}
+
+option {
+    text-align: left;
+}
+
+
+
+/* about section start */
+
+
+
+
+div#about_image {
+    flex-basis: 40%;
+}
+
+div#about_info {
+    flex-basis: 55%;
+    padding: 30px;
+}
+
+div#about_div {margin-bottom: 15px;}
+
+div#list_of_about_section {
+    padding: 30px 0;
+}
+
+div#list_of_about_section ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+}
+
+div#list_of_about_section ul li i {
+    color: #4f07ff;
+}
+
+div#about_quote {
+    padding: 25px 0 25px 20px;
+    margin: 30px 0 45px;
+    background: #e1def9;
+    position: relative;
+}
+
+div#about_quote small {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+div#about_quote::after {content: '';position: absolute;height: 100%;width: 5px;background: #6847cd;left: 0;top: 0;}
+
+div#about_div h4 {
+    padding: 5px 15px;
+    background: #7070ff;
+    width: 120px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+div#about_div h1 {font-family: 'Poppins', monospace;font-size: 32px;margin-bottom: 30px;}
+
+
+
+/* summery section start */
+
+
+
+
+.summary_box {
+    flex-basis: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.summary_box i {
+    display: inline-block;
+    font-size: 60px;
+    color: #3503d1;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.summary_box span {
+    font-size: 32px;
+    font-weight: 700;
+    color: #3c3a3a;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.summary_box p {
+    font-size: 14px;
 }

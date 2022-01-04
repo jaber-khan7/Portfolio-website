@@ -125,6 +125,8 @@ google-plus-g:
 <i class="fab fa-google-plus-g"></i>
 user:
 <i class="far fa-user"></i>
+home:
+<i class="fas fa-home"></i>
 laptop:
 <i class="	fas fa-laptop"></i>
 search:
