@@ -123,6 +123,8 @@ shopping-cart:
 <i class="fas fa-shopping-cart"></i>
 google-plus-g:
 <i class="fab fa-google-plus-g"></i>
+user:
+<i class="far fa-user"></i>
 laptop:
 <i class="	fas fa-laptop"></i>
 search:
