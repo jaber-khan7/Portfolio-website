@@ -287,11 +287,14 @@ div#about_image {
 }
 
 div.about_info {
-    flex-basis: 55%;
+    flex-basis: 50%;
     padding: 30px;
 }
 
 div#about_div {margin-bottom: 15px;}
+div#about_div p {
+    line-height: 1.5;
+}
 
 div#list_of_about_section {
     padding: 30px 0;
@@ -380,11 +383,10 @@ div#about_div h1 {
 
 
 div#sell_properties_imag {
-    flex-basis: 40%;
-    padding: 20px;
+    flex-basis: 45%;
+    padding: 30px;
     display: inline-flex;
 }
-
 div#sell_properties_imag img {
     width: 100%;
 }
@@ -394,7 +396,7 @@ div#sell_properties_imag img {
 }
 
 .about_info_list {
-    padding: 40px 0;
+    padding: 15px 0;
 }
 .about_info_list ul li {
     line-height: 2.5;
@@ -405,12 +407,13 @@ div#sell_properties_imag img {
 }
 
 .about_properties ul {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0;
-    width: 70%;
+    padding: 10px 0 20px;
+    width: 80%;
 }
 
 .about_properties_img {
@@ -430,5 +433,6 @@ div#sell_properties_imag img {
     flex-wrap: wrap;
 }
 
-.about_properties_img a {
+.flex_inherit{
+    align-items: inherit;
 }
