@@ -143,6 +143,10 @@ arrow-up:
 <i class="fas fa-arrow-up"></i>
 arrow-down:
 <i class="fas fa-arrow-down"></i>
+arrow-right:
+<i class="fas fa-long-arrow-alt-right"></i>
+arrow-left:
+<i class="fas fa-long-arrow-alt-left"></i>
 bell:
 <i class="far fa-bell"></i>
 bell-slash:
